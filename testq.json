@@ -1,0 +1,44 @@
+{
+"packages":
+	[
+		{
+		"name": "sifive",
+		"maintainer": "Sifive",
+		"websiteURL": "",
+		"email": "",
+		"help": {"online": ""},
+		"platforms":
+			[
+				{
+				"name": "SiFive Freedom Boards",
+				"architecture": "riscv",
+				"version": "1.0.0",
+				"category": "SiFive",
+				"url": "https://trgp.github.io/test/sifive-1.0.0.tar.bz2",
+				"archiveFileName": "sifive-1.0.0.tar.bz2",
+				"checksum": "SHA-256:08c54b894ddbc9e88369935da957a3933f931d611e1741dc5bd6d9bc8fb47a26",
+				"size": "78960",
+				"boards":
+					[
+					{"name": "HiFive1"},
+					{"name": "Freedom E300 Arty Devkit"}
+					],
+				"toolsDependencies":
+					[
+						{
+							"packager": "sifive",
+							"version": "e3e50c50f05c747c4a80faed706ded02b7e9b046",
+			    				"name": "riscv32-unknown-elf-gcc"
+						},
+						{
+							"packager": "sifive",
+			    				"version": "b474c22b33be7fa4969c0dfa9ccf172ce1bab5d0",
+			    				"name": "openocd"
+						}
+					]
+				},
+			],
+		"tools":[]
+		}
+	]
+}
