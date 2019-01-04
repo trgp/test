@@ -1,0 +1,41 @@
+{
+    "packages": [
+        {
+            "name": "Simba",
+            "maintainer": "Erik Moqvist",
+            "websiteURL": "https://github.com/eerimoq/simba",
+            "email": "erik.moqvist@gmail.com",
+            "help": {
+                "online": "https://simba-os.readthedocs.org"
+            },
+            "platforms": [
+                {
+                    "name": "Simba",
+                    "architecture": "avr",
+                    "version": "0.6.0",
+                    "category": "Simba",
+                    "help": {
+                        "online": "https://simba-os.readthedocs.org"
+                    },
+                    "url": "https://github.com/trgp/test/raw/master/simba-arduino-avr-0.6.0.zip",
+                    "archiveFileName": "simba-arduino-avr-0.6.0.zip",
+                    "checksum": "SHA-256:7b6182bd2950ac4a97b8ce98c6df5c918ffba9ea10caffcaacac8d10ea887d9c",
+                    "size": "430897",
+                    "boards": [
+                        {
+                            "name": "Arduino Mega 2560"
+                        },
+                        {
+                            "name": "Arduino Nano"
+                        },
+                        {
+                            "name": "Arduino Guru"
+                        }
+                    ],
+                    "toolsDependencies": []
+                }
+             ],
+            "tools": []
+        }
+    ]
+}
