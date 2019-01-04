@@ -1,0 +1,80 @@
+{
+    "packages": [
+	{
+	    "name": "shakthi",
+	    "maintainer": "IITM",
+	    "websiteURL": "",
+	    "email": "", 
+	    "platforms": [
+		{
+		    "category": "Contributed",
+		    "name": "Shakthi",
+		    "url": "https://github.com/trgp/test/raw/master/sifive-1.0.0v2.zip",
+		    "checksum": "SHA-256:e91df1840130c463c685c11c87b2ff943300f3427480650877e7330911c6f587",
+		    "version": "1.0.0",
+		    "architecture": "riscv",
+		    "archiveFileName": "sifive-1.0.0v2.zip",
+		    "boards": [
+			{"name": "EClass"},
+			{"name": "CClass"}  
+		    ], 
+		    "toolsDependencies": [
+				{
+			    "packager": "sifive",
+			    "version": "e3e50c50f05c747c4a80faed706ded02b7e9b046",
+			    "name": "riscv32-unknown-elf-gcc"
+			},
+			{
+			    "packager": "sifive",
+			    "version": "b474c22b33be7fa4969c0dfa9ccf172ce1bab5d0",
+			    "name": "openocd"
+			}	
+			],
+		    "size": "169901"
+		}
+	    ],
+	    "tools": [
+			{
+		    "version": "e3e50c50f05c747c4a80faed706ded02b7e9b046",
+		    "name": "riscv32-unknown-elf-gcc",
+		    "systems": [
+			{
+			    "url": "http://static.dev.sifive.com/bsp/arduino/riscv32-unknown-elf-gcc-e3e50c50-x86_64-pc-linux-gnu.tar.bz2",
+			    "checksum": "SHA-256:840410951e96b2bae53f674080cde06bdddb954fe0c90d0d487eff2a282f0918",
+			    "host": "x86_64-pc-linux-gnu",
+			    "archiveFileName": "riscv32-unknown-elf-gcc-34e199d-x86_64-pc-linux-gnu.tar.bz2",
+			    "size": "65730912"
+			}
+		    ]
+		},
+		{
+		    "version": "e3e50c50f05c747c4a80faed706ded02b7e9b046",
+		    "name": "riscv32-unknown-elf-gcc",
+		    "systems": [
+			{
+			    "url": "http://static.dev.sifive.com/bsp/arduino/riscv32-unknown-elf-gcc-e3e50c50-x86_64-pc-linux-gnu.tar.bz2",
+			    "checksum": "SHA-256:840410951e96b2bae53f674080cde06bdddb954fe0c90d0d487eff2a282f0918",
+			    "host": "x86_64-pc-linux-gnu",
+			    "archiveFileName": "riscv32-unknown-elf-gcc-34e199d-x86_64-pc-linux-gnu.tar.bz2",
+			    "size": "65730912"
+			}
+		    ]
+		},
+			{
+		    "version": "b474c22b33be7fa4969c0dfa9ccf172ce1bab5d0",
+		    "name": "openocd",
+		    "systems": [
+			{
+			    "url": "http://static.dev.sifive.com/bsp/arduino/openocd-b474c22b-x86_64-pc-linux-gnu.tar.bz2",
+			    "checksum": "SHA-256:35d29d102ea605eedb15a1f6ff83790711f5ed818f1b422d0a292eaed9800f0b",
+			    "host": "x86_64-pc-linux-gnu",
+			    "archiveFileName": "openocd-e31dd22-x86_64-pc-linux-gnu.tar.bz2",
+			    "size": "1279811"
+			}
+		    ]
+		}
+	    ]
+	}
+    ]
+}
+
