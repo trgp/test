@@ -1,0 +1,29 @@
+{
+    "packages": [
+	{
+	    "name": "shakthi",
+	    "maintainer": "IITM",
+	    "websiteURL": "",
+	    "email": "", 
+	    "platforms": [
+		{
+		    "category": "Contributed",
+		    "name": "Shakthi",
+		    "url": "https://github.com/trgp/test/raw/master/sifive-1.0.0v3.zip",
+		    "checksum": "SHA-256:edbe380ba0d4a2841dde6139a4d4f8e78180d75c8dbd0ae04d2e546a9b477fad",
+		    "version": "1.0.0",
+		    "architecture": "riscv",
+		    "archiveFileName": "sifive-1.0.0v3.zip",
+		    "boards": [
+			{"name": "EClass"},
+			{"name": "CClass"}  
+		    ], 
+		    "toolsDependencies": [],
+		    "size": "160291"
+		}
+	    ],
+	    "tools": []
+	}
+    ]
+}
+
